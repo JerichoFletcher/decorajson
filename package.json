@@ -1,0 +1,29 @@
+{
+  "name": "decorajson",
+  "version": "0.1.0",
+  "description": "A decorator-driven serialization library that I definitely did not make in a day or so.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "clean": "del-cli lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JerichoFletcher/decorajson.git"
+  },
+  "author": "JerichoFletcher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JerichoFletcher/decorajson/issues"
+  },
+  "homepage": "https://github.com/JerichoFletcher/decorajson#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "del-cli": "^6.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  }
+}
